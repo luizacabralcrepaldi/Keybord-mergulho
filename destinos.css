@@ -79,38 +79,7 @@
 
 }
 
-.mergulhador-topo{
 
-  position:fixed;
-
-  top:120px;
-
-  left:-200px;
-
-  z-index:50;
-
-  animation:nadar 18s linear infinite;
-}
-
-.mergulhador-topo img{
-
-  width:120px;
-
-  filter:
-  drop-shadow(0 0 15px cyan);
-}
-
-@keyframes nadar{
-
-  from{
-    transform:translateX(-250px);
-  }
-
-  to{
-    transform:translateX(120vw);
-  }
-
-}
 body{
   background:#020617;
   color:white;
